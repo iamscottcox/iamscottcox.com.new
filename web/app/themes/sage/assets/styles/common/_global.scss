@@ -1,0 +1,8 @@
+html, body {
+  height: 100%;
+  background-attachment: fixed;
+}
+
+body {
+  background: radial-gradient(top left, $gray-lighter, $gray-lightest);
+}
