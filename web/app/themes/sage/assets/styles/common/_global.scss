@@ -5,4 +5,7 @@ html, body {
 
 body {
   background: radial-gradient(top left, $gray-lighter, $gray-lightest);
+  .main {
+    padding: 0;
+  }
 }
