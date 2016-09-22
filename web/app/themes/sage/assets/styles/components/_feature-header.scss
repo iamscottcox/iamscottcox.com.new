@@ -1,8 +1,25 @@
 .feature-header {
   background: blue;
   height: 100vh;
-  .row {
+  .feature-header-row-one {
     height: 100%;
     text-align: center;
+    position: relative;
+    .feature-header-headings {
+      h1 {
+        font-size: calc(#{$font-size-h1 * 3});
+        &, h2 {
+          text-shadow: $carousel-text-shadow;
+        }
+      }
+    }
+    p {
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
   }
 }
