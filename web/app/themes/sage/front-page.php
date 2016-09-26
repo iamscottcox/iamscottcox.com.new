@@ -4,6 +4,6 @@
       <h1><span>Scott Cox</span></h1>
       <h2>Web Developer & Designer</h2>
     </div>
-    <a href="#">V</a>
+    <a href="#"><i class="fa fa-chevron-down"></i></a>
   </div>
 </div>

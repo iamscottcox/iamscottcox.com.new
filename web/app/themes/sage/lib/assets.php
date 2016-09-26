@@ -59,5 +59,6 @@ function asset_path($filename) {
 
 function external_assets() {
   wp_enqueue_style('google_fonts', 'https://fonts.googleapis.com/css?family=Comfortaa|Raleway');
+  wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\external_assets');
