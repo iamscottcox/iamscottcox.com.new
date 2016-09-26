@@ -1,7 +1,6 @@
 .feature-header {
-  background: blue;
   height: 100vh;
-  .feature-header-row-one {
+  .feature-header-row {
     height: 100%;
     text-align: center;
     position: relative;
@@ -13,13 +12,21 @@
         }
       }
     }
-    p {
+    a {
+      $length: 50px;
+      height: $length;
+      width: $length;
+      padding: 0;
+      line-height: $length;
       position: absolute;
+      //display: inline-block;
       top: auto;
-      bottom: 0;
+      bottom: $length;
       left: 0;
       right: 0;
       margin: auto;
+      background-color: #333;
+      border-radius: 100%;
     }
   }
 }
