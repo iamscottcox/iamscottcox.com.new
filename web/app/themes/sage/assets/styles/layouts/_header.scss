@@ -1,4 +1,24 @@
 header {
   position: fixed;
   z-index: 100;
+  background: $black;
+  width: 100%;
+  .container {
+    display: flex;
+    .brand {
+      padding: 1em;
+    }
+    .nav {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      li {
+        padding: 1em;
+        a {
+          display: block;
+        }
+      }
+    }
+  }
 }

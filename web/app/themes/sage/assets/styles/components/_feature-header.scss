@@ -24,13 +24,12 @@
       padding: 0;
       line-height: $length;
       position: absolute;
-      //display: inline-block;
       top: auto;
       bottom: $length;
       left: 0;
       right: 0;
       margin: auto;
-      background-color: #333;
+      background-color: $black;
       border-radius: 100%;
       color: $gray-lightest;
     }
