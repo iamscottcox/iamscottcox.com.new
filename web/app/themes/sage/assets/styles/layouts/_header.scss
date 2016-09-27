@@ -1,27 +1,41 @@
-header {
+.banner {
   position: fixed;
   z-index: 100;
-  background: $black;
   width: 100%;
+  color: $black;
   font-family: $headings-font-family;
   .container {
-    display: flex;
     .nav-primary {
+      display: flex;
       width: 100%;
+      flex-direction: row;
+      .brand {
+        padding: 1em;
+      }
       .nav {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: flex-start;
         li {
           padding: 1em;
           a {
             display: block;
             font-weight: bold;
+            color: $black;
+            position: relative;
+            &:hover {
+              text-decoration: none;
+              &:before {
+                width: 100%;
+              }
+            }
+            &:before {
+              content: '';
+              position: absolute;
+              width: 0;
+              height: 3px;
+              margin-top: 1.5em;
+              transition: width 0.35s ease-in-out;
+              background: $brand-primary;
+            }
           }
-        }
-        .brand {
-          padding: 1em;
         }
       }
     }
