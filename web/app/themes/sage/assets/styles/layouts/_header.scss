@@ -8,6 +8,10 @@
   font-family: $headings-font-family;
   .container {
     height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
     background: radial-gradient(top left, $gray-lighter, $gray-lightest);
     .nav-primary {
       display: flex;
