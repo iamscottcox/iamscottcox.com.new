@@ -9,12 +9,10 @@
         color: transparent;
         font-size: calc(#{$font-size-h1 * 3});
         font-weight: bold;
-        span {
-          background: url("https://45.media.tumblr.com/d6946dbae92220c65838e861a365affb/tumblr_mzs9uzNKDZ1qddrn0o1_500.gif");
-          -webkit-background-clip: text;
-          -moz-background-clip: text;
-          background-clip: text;
-        }
+        background: url("https://45.media.tumblr.com/d6946dbae92220c65838e861a365affb/tumblr_mzs9uzNKDZ1qddrn0o1_500.gif");
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
       }
     }
     a {
