@@ -1,0 +1,16 @@
+.chevron-down {
+  $length: 50px;
+  height: $length;
+  width: $length;
+  padding: 0;
+  line-height: $length;
+  position: absolute;
+  top: auto;
+  bottom: $length;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: $black;
+  border-radius: 100%;
+  color: $brand-primary;
+}
