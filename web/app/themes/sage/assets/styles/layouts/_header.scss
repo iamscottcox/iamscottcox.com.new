@@ -2,9 +2,13 @@
   position: fixed;
   z-index: 100;
   width: 100%;
+  overflow: hidden;
+  max-height: 56px;
   color: $black;
   font-family: $headings-font-family;
   .container {
+    height: 100vh;
+    background: radial-gradient(top left, $gray-lighter, $gray-lightest);
     .nav-primary {
       display: flex;
       width: 100%;
