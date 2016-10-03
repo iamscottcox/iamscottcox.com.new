@@ -1,6 +1,6 @@
 <?php use Components\Controllers\See_More; ?>
 
-<section class="section-full-height section-recent-posts">
+<section class="section-recent-posts">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">

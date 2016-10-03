@@ -10,7 +10,7 @@ use Components\Controllers\See_More;
 
 ?>
 
-<section class="section-full-height section-recent-work">
+<section class="section-recent-work">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
