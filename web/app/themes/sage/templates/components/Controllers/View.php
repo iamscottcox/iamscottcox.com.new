@@ -15,13 +15,14 @@ class View {
    */
   public function render( $file )
   {
-    if( is_file( $file ) )
+    $str = get_template_directory() . '/templates/components/Views/' . $file;
+    if( is_file( $str ) )
     {
       ob_start();
-      require($file);
+      require($str);
       return ob_get_clean();
     }
-    return 'File not found: '.$file;
+    return 'File not found: ' . $str;
   }
 
 }
