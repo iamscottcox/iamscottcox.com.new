@@ -6,9 +6,11 @@
  * Time: 22:11
  */
 
+use Components\Controllers\See_More;
+
 ?>
 
-<section class="full-height-section">
+<section class="section-full-height section-recent-work">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -32,6 +34,13 @@
         <div class="card">
           <h4>Work Piece #3</h4>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <?= (new See_More())->setHref('/portfolio')->render('see-more.view.php'); ?>
       </div>
     </div>
   </div>
