@@ -16,6 +16,11 @@
       "homepage": "https://github.com/retlehs"
     }
   ],
+  "autoload": {
+    "prs-4": {
+      "Components\\": "web/app/themes/sage/templates/components"
+    }
+  },
   "keywords": [
     "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
   ],
