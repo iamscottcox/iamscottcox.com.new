@@ -1,0 +1,28 @@
+.feature-header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  .feature-header-titles {
+    text-align: center;
+    h1 {
+      color: transparent;
+      font-size: calc(#{$font-size-h1 * 3});
+      font-weight: bold;
+      background: url("https://45.media.tumblr.com/d6946dbae92220c65838e861a365affb/tumblr_mzs9uzNKDZ1qddrn0o1_500.gif");
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+    }
+  }
+  .feature-header-chevron-down {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 25px;
+    left: 0;
+    right: 0%;
+    margin: auto;
+  }
+}

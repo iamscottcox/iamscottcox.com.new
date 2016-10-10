@@ -12,7 +12,6 @@
 @import "components/comments";
 @import "components/forms";
 @import "components/grid";
-@import "components/feature-header";
 @import "components/wp-classes";
 @import "layouts/header";
 @import "layouts/sidebar";
@@ -20,3 +19,10 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+
+@import "sections/recent-posts.section";
+@import "sections/recent-work.section";
+@import "sections/feature-header.section";
+
+@import "partials/feature-header.partial";
+
