@@ -10,17 +10,17 @@ namespace Templates\Classes;
 
 class Content_Block {
 
-  function setTitle($title) {
+  public function setTitle($title) {
     $this->title = $title;
     return $this;
   }
 
-  function setContent($content) {
+  public function setContent($content) {
     $this->content = $content;
     return $this;
   }
 
-  function setHref($href) {
+  public function setHref($href) {
     $this->href = $href;
     return $this;
   }
