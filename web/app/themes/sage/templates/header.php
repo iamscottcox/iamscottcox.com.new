@@ -1,4 +1,4 @@
-<header class="banner">
+<header class="banner box-shadow">
   <div class="container">
     <nav class="nav-primary">
       <?php if (has_nav_menu('navbar-left-side')):
