@@ -1,0 +1,31 @@
+.banner {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  color: $black;
+  font-family: $headings-font-family;
+  background-color: #fff;
+  .container {
+    .nav-primary {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      .brand {
+        padding: 1em;
+      }
+      .nav {
+        li {
+          padding: 1em;
+          a {
+            display: block;
+            font-weight: bold;
+            color: $black;
+            position: relative;
+            @include to-right-underline();
+          }
+        }
+      }
+    }
+  }
+}

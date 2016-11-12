@@ -1,0 +1,26 @@
+@mixin clickable() {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+@mixin to-right-underline() {
+  &:before {
+    content: '';
+    background: $brand-primary;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    transition: 0.35s all;
+    width: 0;
+    left: 100%;
+  }
+  &:hover {
+    text-decoration: none;
+    &:before {
+      width: 100%;
+      transition: 0.35s width;
+      width: 100%;
+      left: 0;
+    }
+  }
+}
