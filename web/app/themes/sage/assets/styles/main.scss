@@ -8,12 +8,14 @@
 @import "common/helper-classes";
 @import "common/typography";
 @import "common/mixins";
+
 @import "components/buttons";
 @import "components/cards";
 @import "components/comments";
 @import "components/forms";
 @import "components/grid";
 @import "components/wp-classes";
+
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
@@ -21,10 +23,12 @@
 @import "layouts/posts";
 @import "layouts/tinymce";
 
-@import "sections/_about-me.section.scss";
+@import "sections/about-me.section";
 @import "sections/recent-posts.section";
 @import "sections/recent-work.section";
 @import "sections/feature-header.section";
+
+@import "views/my-skills.view";
 
 @import "partials/feature-header.partial";
 

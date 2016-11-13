@@ -10,8 +10,8 @@
     </div>
     <div class="row">
       <div class="col-xs-12">
-        <div class="flex-container">
-          <?php get_template_part('components/my-skills.component.php'); ?>
+        <div class="container-flex">
+          <?php get_template_part('components/my-skills.component'); ?>
         </div>
       </div>
     </div>
