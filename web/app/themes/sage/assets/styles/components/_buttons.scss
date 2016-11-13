@@ -13,7 +13,10 @@
   margin-bottom: 2em;
   background-color: $black;
   border-radius: 100%;
-  color: $brand-primary;
+  color: $white;
+  &:hover {
+    color: $white;
+  }
 }
 
 .btn {
@@ -22,4 +25,9 @@
   &:hover {
     box-shadow: $box-shadow-hoverable;
   }
+  text-shadow: $text-shadow;
+}
+
+.see-more {
+  margin-top: 2em;
 }

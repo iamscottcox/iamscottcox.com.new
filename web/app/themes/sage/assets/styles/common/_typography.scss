@@ -1,0 +1,51 @@
+$mod: 1.25;
+$font-base: 14px;
+$font-base-rem: 1rem;
+
+$h1-font-size: $mod * $mod * $mod * $mod * $mod * $mod * $font-base-rem;
+$h2-font-size: $mod * $mod * $mod * $mod * $mod * $font-base-rem;
+$h3-font-size: $mod * $mod * $mod * $mod * $font-base-rem;
+$h4-font-size: $mod * $mod * $mod * $font-base-rem;
+$h5-font-size: $mod * $mod * $font-base-rem;
+$h6-font-size: $mod * $font-base-rem;
+$font-size-content: $font-base-rem;
+
+html {
+
+  font-size: $font-base;
+
+  @media screen and (min-width: 768px) {
+    font-size: $font-base + 2;
+  }
+  @media screen and (min-width: 992px) {
+    font-size: $font-base + 4;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-base + 6;
+  }
+
+}
+
+.h1-font-size {
+  font-size: $h1-font-size;
+}
+
+.h2-font-size {
+  font-size: $h2-font-size;
+}
+
+.h3-font-size {
+  font-size: $h3-font-size;
+}
+
+.h4-font-size {
+  font-size: $h4-font-size;
+}
+
+.h5-font-size {
+  font-size: $h5-font-size;
+}
+
+.h6-font-size {
+  font-size: $h6-font-size;
+}
