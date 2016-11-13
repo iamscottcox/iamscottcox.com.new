@@ -4,14 +4,18 @@ $main-sm-columns: 12;
 $sidebar-sm-columns: 4;
 
 // Colors
-$brand-primary: #3498db;
+$brand-primary: #4f44e1;
+$brand-info: #3498db;
+$brand-success: #2be46a;
+$brand-warning: #ffa330;
 $black: #333;
 $white: #efefef;
 
 // Text
 $font-family-headings: 'Raleway', sans-serif;
-$font-family-base: 'Comfortaa', cursive;
+$font-family-base: 'Open Sans', sans-serif;
 
 // Shadows
 $box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 $box-shadow-hoverable: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+$text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.65);

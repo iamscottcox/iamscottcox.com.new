@@ -10,7 +10,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p class="text-xs-right"><a href="#" class="btn btn-info">See More</a></p>
+        <p class="text-xs-right"><a href="#" class="btn btn-primary">See More</a></p>
       </div>
     </div>
   </div>

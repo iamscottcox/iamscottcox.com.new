@@ -11,8 +11,8 @@
       do_action('get_header');
       get_template_part('partials/header');
     ?>
-    <div class="wrap container" role="document">
-      <div class="content row">
+    <div class="wrap" role="document">
+      <div id="content" class="content">
         <main class="main">
           <?php include App\template()->main(); ?>
         </main>

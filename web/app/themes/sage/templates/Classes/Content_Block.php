@@ -25,4 +25,9 @@ class Content_Block {
     return $this;
   }
 
+  public function setImgSrc($src) {
+    $this->imgSrc = $src;
+    return $this;
+  }
+
 }

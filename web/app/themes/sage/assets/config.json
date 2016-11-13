@@ -10,7 +10,7 @@
   },
   "watch": [
     "**/*.php",
-    "assets/**/*.scss"
+    "styles/**/*.scss"
   ],
   "publicPath": "/app/themes/sage",
   "devUrl": "http://iamscottcox.dev",
