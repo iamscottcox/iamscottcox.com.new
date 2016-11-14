@@ -1,5 +1,10 @@
-<div class="card">
-    <div class="card-block hoverable"><!-- -->
+<div class="card box-shadow hoverable">
+    {% if post.img %}
+        <div class="card-image">
+            {{ post.img }}
+        </div>
+    {% endif %}
+    <div class="card-block">
         {{ post.title }}
         {{ post.content }}
     </div>
