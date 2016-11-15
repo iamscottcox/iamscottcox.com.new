@@ -9,5 +9,5 @@
     </nav>
   </div>
 </header>
-<?php get_template_part('templates/sections/feature-header.section'); ?>
+<?php get_template_part('templates/sections/header.section'); ?>
 

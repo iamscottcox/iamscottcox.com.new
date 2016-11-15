@@ -16,11 +16,11 @@
         <main class="main">
           <?php include App\template()->main(); ?>
         </main>
-        <?php if (App\display_sidebar()) : ?>
-          <aside class="sidebar">
-            <?php App\template_part('partials/sidebar'); ?>
-          </aside>
-        <?php endif; ?>
+<!--        --><?php //if (App\display_sidebar()) : ?>
+<!--          <aside class="sidebar">-->
+<!--            --><?php //App\template_part('partials/sidebar'); ?>
+<!--          </aside>-->
+<!--        --><?php //endif; ?>
       </div>
     </div>
     <?php
