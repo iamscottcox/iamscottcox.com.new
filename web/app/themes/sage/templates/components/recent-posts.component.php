@@ -8,8 +8,12 @@
 
 use Timber\Timber;
 
+$args = [
+  'post_type' => 'post'
+];
+
 $context = Timber::get_context();
-$context['posts'] = Timber::get_posts();
+$context['posts'] = Timber::get_posts($args);
 
 Timber::render('recent-work-and-posts.view.twig', $context);
 
