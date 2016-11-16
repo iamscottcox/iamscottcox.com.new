@@ -9,7 +9,8 @@
 use Timber\Timber;
 
 $args = [
-  'post_type' => 'post'
+  'post_type' => 'post',
+  'posts_per_page' => 2
 ];
 
 $context = Timber::get_context();
