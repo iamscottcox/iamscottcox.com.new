@@ -87,3 +87,8 @@ add_action('widgets_init', function () {
                      'id' => 'sidebar-footer'
                    ] + $config);
 });
+
+/**
+ * Remove Admin Bar
+ */
+show_admin_bar(false);
