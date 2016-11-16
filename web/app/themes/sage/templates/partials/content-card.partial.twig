@@ -6,6 +6,6 @@
     {% endif %}
     <div class="card-block">
         <h2>{{ post.title }}</h2>
-        {{ post.content }}
+        {{ post.get_preview(40) }}
     </div>
 </div>
