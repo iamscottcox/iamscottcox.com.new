@@ -10,7 +10,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p class="text-xs-center"><a href="#" class="btn btn-primary see-more">See More</a></p>
+        <p class="text-xs-center"><a href="/portfolio" class="btn btn-primary see-more">See More</a></p>
       </div>
     </div>
   </div>
