@@ -1,5 +1,5 @@
 // Grid settings
-$enable-flex: true;
+$enable-flex: false;
 $main-sm-columns: 12;
 $sidebar-sm-columns: 4;
 
@@ -14,6 +14,7 @@ $white: #efefef;
 // Text
 $font-family-headings: 'Raleway', sans-serif;
 $font-family-base: 'Open Sans', sans-serif;
+$fa-font-path:          '~font-awesome/fonts';
 
 // Shadows
 $box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
