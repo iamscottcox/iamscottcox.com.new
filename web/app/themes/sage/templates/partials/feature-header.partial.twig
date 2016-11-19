@@ -4,6 +4,10 @@
             <h1>
                 {{ fields.feature_header_title }}
             </h1>
+        {% else %}
+            <h1>
+                {{ wp_title }}
+            </h1>
         {% endif %}
         {% if fields.feature_header_subtitle %}
             <h2>

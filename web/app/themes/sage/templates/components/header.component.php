@@ -13,4 +13,3 @@ if ($fields['feature_header'] === 'yes') {
 } else {
   Timber::render('header.view.twig', $context);
 }
-
