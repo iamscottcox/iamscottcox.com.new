@@ -24,3 +24,8 @@
     }
   }
 }
+
+@mixin transition($type) {
+  $transition: $type 0.3s cubic-bezier(.25, .8, .25, 1);
+
+}
