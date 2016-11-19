@@ -1,0 +1,14 @@
+.card-row {
+  display: flex;
+  .card-image {
+    width: 33.33%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .card-block {
+    width: 66.66%
+  }
+}
