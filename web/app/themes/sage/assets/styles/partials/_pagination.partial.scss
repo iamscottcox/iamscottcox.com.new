@@ -1,0 +1,15 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  margin-top: 4em;
+  .pagination-pages {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    li {
+      margin: 0 10px;
+      list-style: none;
+    }
+  }
+}
