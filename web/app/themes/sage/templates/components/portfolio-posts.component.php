@@ -8,7 +8,7 @@ if (!isset($paged) || !$paged){
 }
 $context = Timber::get_context();
 $args = array(
-    'post_type' => 'post',
+    'post_type' => 'portfolio',
     'posts_per_page' => 5,
     'paged' => $paged
 );
