@@ -1,6 +1,9 @@
 <div class="card box-shadow hoverable">
     {% if post.thumbnail %}
-        <div class="card-image" style="background: url({{ post.thumbnail }}); background-size: auto 100%; background-position: center center;"></div>
+        <div class="card-image" style="background: url({{ post.thumbnail('large') }});
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat"></div>
     {% endif %}
     <div class="card-block">
         <a href="{{ post.link }}">

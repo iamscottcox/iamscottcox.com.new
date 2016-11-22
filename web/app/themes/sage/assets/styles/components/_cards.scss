@@ -1,14 +1,17 @@
-.card-row {
-  @extend .card;
+.card {
   border: 0;
-  display: flex;
   .card-image {
-    overflow: hidden;
-    width: 33.33%;
-    background-size: auto 100%;
-    background-position: center center;
-    + .card-block {
-      width: 66.66%
+    min-height: 250px;
+  }
+  .read-more {
+    text-align: right;
+    p {
+      margin: 0;
+      padding: 1em 0.5em;
+      color: $brand-primary;
+      &:hover {
+        color: darken($brand-primary, 15%);
+      }
     }
   }
   .card-block {
@@ -22,22 +25,19 @@
         color: $black;
       }
     }
-    .read-more {
-      text-align: right;
-      color: $brand-primary;
-      &:hover {
-        color: darken($brand-primary, 15%);
-      }
-      p {
-        margin: 0;
-        padding: 1em 0.5em;
-      }
-    }
+
   }
 }
 
-.card {
+.card-row {
+  display: flex;
   .card-image {
-    min-height: 250px;
+    overflow: hidden;
+    width: 33.33%;
+    background-size: auto 100%;
+    background-position: center center;
+    + .card-block {
+      width: 66.66%
+    }
   }
 }
