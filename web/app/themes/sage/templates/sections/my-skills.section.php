@@ -1,7 +1,7 @@
 <section id="section-my-skills">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-12">
         <h1 class="section-header">
           My Skills
         </h1>
@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-12">
         <div class="container-flex">
           <?php get_template_part('components/my-skills.component'); ?>
         </div>

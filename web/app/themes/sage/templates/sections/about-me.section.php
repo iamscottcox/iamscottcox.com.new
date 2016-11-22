@@ -1,14 +1,14 @@
 <section id="section-about-me">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-12">
         <h1 class="section-header">
           About Me
         </h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-12">
         <div class="image-and-header text-xs-center">
           <img src="http://placehold.it/350x250" alt="A picture of me!" class="img-fluid box-shadow">
           <h4 class="">Hi! I'm Scott.</h4>
