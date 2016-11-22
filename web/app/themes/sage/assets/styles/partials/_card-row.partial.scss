@@ -9,6 +9,9 @@
     }
   }
   .card-block {
-    width: 66.66%
+    width: auto;
+    .see-more {
+      padding: 0.5em 1em;
+    }
   }
 }

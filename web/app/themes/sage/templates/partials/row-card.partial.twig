@@ -1,11 +1,14 @@
 <div class="card card-row box-shadow hoverable">
-    <div class="card-image">
-        {{ post.image }}
-    </div>
+    {% if post.image %}
+        <div class="card-image">
+            {{ post.image }}
+        </div>
+    {% endif %}
     <div class="card-block">
         <a href="{{ post.link }}">
-            <h2>{{ post.title }}</h2>
+            <h4><strong>{{ post.title }}</strong></h4>
         </a>
-        {{ post.get_preview(40) }}
+        <hr />
+        {{ post.get_preview(40, null, '<p>Read More</p>') }}
     </div>
 </div>
